@@ -47,7 +47,7 @@ function addCommentPair(
  * @param {Array} posts - The posts array from script.js.
  * @param {string|null} enteredUsername - Username entered by participant.
  */
-export function injectStudyComments(posts, enteredUsername) {
+function injectStudyComments(posts, enteredUsername) {
   if (!Array.isArray(posts)) {
     console.error("❌ injectStudyComments expected posts to be an array.");
     return;
