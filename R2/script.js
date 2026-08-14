@@ -1,4 +1,3 @@
-import { injectStudyComments } from "./comments.js";
 console.log("🚀 script.js has loaded successfully!");
 window.setUsername = function () {
   const input = document.getElementById("username-input").value.trim();
